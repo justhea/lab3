@@ -29,11 +29,10 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-
-
 use App\Controllers\News;
-$routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
+use App\Controllers\Pages;
+$routes->get('/', 'Home::index');
+$routes->match(['get', 'post'], 'create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);
 $routes->get('news', [News::class, 'index']);
 $routes->get('pages', [Pages::class, 'index']);
