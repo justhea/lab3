@@ -1,68 +1,35 @@
 
-<!-- Navigation 1 -->
-
-<nav class="navigation_1 bg-light pt-30 pb-30 text-center">
-	<div class="container px-xl-0">
-		<div class="row justify-content-center align-items-center f-16">
-			<div class="mb-20 mb-lg-0 col-lg-3 text-lg-left" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				<a href="#" class="logo link color-main">Startup 3</a>
-			</div>
-			<div class="col-lg-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-				<a href="#" class="link color-main mx-15">Home</a>
-				<a href="#" class="link color-main mx-15">Features</a>
-				<a href="#" class="link color-main mx-15">Blog</a>
-				<a href="#" class="link color-main mx-15">Shop</a>
-				<a href="#" class="link color-main mx-15"><i class="fas fa-search"></i></a>
-			</div>
-			<div class="mt-20 mt-lg-0 col-lg-3 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				<a href="#" class="mr-20 link color-main">Sign In</a>
-				<a href="#" class="btn sm action-2 f-16">Sign Up</a>
-			</div>
-		</div>
-	</div>
-</nav>
-
 <!-- Feature 2 -->
 
 <section class="feature_2 bg-light pt-105 pb-45 text-center">
 	<div class="container px-xl-0">
 		<div class="row justify-content-center">
 			<div class="col-xl-8 col-lg-10">
-				<h2 class="small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Startup Framework</h2>
+				<h2 class="small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Artivise</h2>
 				<div class="mt-35 mb-65 f-22 color-heading text-adaptive description" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-					The most important part of the Startup Framework are the samples or 
-					Bootstrap themes and templates. The samples consist of a set of few 
-					pages you can use «as is» or add new blocks from UI Kit. 
+				Artivize is a platform for artists to showcase their artworks online. It is a combination of "Art" and "Revitalize", which implies the revitalization of the art world through technology. 
 				</div>
 			</div>
 			<div class="col-xl-10">
 				<div class="row justify-content-center">
 					<div class="mb-50 col-md-4 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-						<div class="mb-20 f-18 medium title">For Freelancers and <br />Agencies</div>
+						<div class="mb-20 f-18 medium title">Online Gallery</div>
 						<div class="color-heading text-adaptive">
-							Pay once and it’s yours forever. Use <br />
-							it to build as many sites as you <br />
-							need; long form, presentations, <br />
-							splash sites, and more.
+						Artivize provides artists with an online gallery to showcase their artworks to the internet. This feature allows artists to reach a wider audience and increase their chances of making sales.
 						</div>
 						<a href="#" class="mt-30 btn sm w-40 border-transparent-main"><i class="fas fa-angle-right"></i></a>
 					</div>
 					<div class="mb-50 col-md-4 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
-						<div class="mb-20 f-18 medium title">Cmd + C / Cmd + V</div>
+						<div class="mb-20 f-18 medium title">Curated Exhibitions</div>
 						<div class="color-heading text-adaptive">
-							Edit content in a comfortable <br />
-							manner. It’s as simple as copy <br />
-							and paste.
+						Artivize curates online exhibitions of artworks from different artists, styles, and themes. This feature provides exposure and recognition to emerging artists, and it allows viewers to explore and appreciate different forms of art.
 						</div>
 						<a href="#" class="mt-30 btn sm w-40 border-transparent-main"><i class="fas fa-angle-right"></i></a>
 					</div>
 					<div class="mb-50 col-md-4 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">
-						<div class="mb-20 f-18 medium title">Full Control</div>
+						<div class="mb-20 f-18 medium title">Open Submissions</div>
 						<div class="color-heading text-adaptive">
-							Easily change and tweak your <br />
-							content when you need to, <br />
-							however you want. No more third <br />
-							party vendor lock-in.
+						Artivize provides a platform for artists to showcase their work without censorship or judgment, promoting freedom of expression and creativity without limitations or restrictions.
 						</div>
 						<a href="#" class="mt-30 btn sm w-40 border-transparent-main"><i class="fas fa-angle-right"></i></a>
 					</div>
@@ -71,22 +38,39 @@
 		</div>
 	</div>
 </section>
+
+
+
+
+
+
+
+
+
+
 <!-- Content 2 -->
 
 <section class="content_2 bg-light pt-105 pb-95">
 	<div class="container px-xl-0 text-center">
 		<div class="row justify-content-center">
 			<div class="col-xl-8 col-lg-10" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-				<h2>The Third Sneak-Peek of Startup Framework</h2>
+				<h2>Everyone is welcome</h2>
 			</div>
 			<div class="col-xl-7 col-lg-9 col-md-10" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 				<div class="mt-35 f-18 medium color-heading op-7 text-adaptive">
-					We have created a new product that will help designers, developers and companies 
-					create websites for their startups quickly and easily.				</div>
+With the blessing of the website creator Carl, we are welcoming everyone to share a piece of their mind whether it may be a poem or a simple drawing. All artworks are welcome</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+
+
+
+
+
+
+
 
 <!-- Showcase 2 -->
 
@@ -94,11 +78,9 @@
 	<div class="container px-xl-0">
 		<div class="row justify-content-center">
 			<div class="col-xl-8 col-lg-10">
-				<h2 class="small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Our Works</h2>
+				<h2 class="small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Community Wall</h2>
 				<div class="mt-15 mb-25 f-22 color-heading text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-					The most important part of the Startup Framework is the samples. The 
-					samples form a set of 20 usable pages you can use as is or you can 
-					add new blocks from UI Kit.
+				Here are the works of other users that visited this website!
 				</div>
 			</div>
 		</div>
@@ -149,7 +131,11 @@
 	</div>
 </section>
 
-<!-- Pricing Table 2 -->
+
+
+
+<!-- TO be implemented
+
 
 <section class="pricing_table_2 bg-light pt-80 pb-70 text-center">
 	<div class="container px-xl-0">
@@ -218,9 +204,11 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section>	
+-->
 
-<!-- Testimonial 1 -->
+<!--
+
 
 <section class="testimonial_1 bg-light pt-80 pb-80">
 	<div class="container px-xl-0">
@@ -253,7 +241,7 @@
 		</div>
 	</div>
 </section>
-
+-->
 <!-- Form 1 -->
 
 <section class="form_1 pt-120 pb-120">
@@ -288,15 +276,13 @@
 	<div class="container px-xl-0">
 		<div class="row justify-content-between align-items-center lh-40 links">
 			<div class="col-lg-4 col-sm-6 text-sm-right text-lg-left order-1 order-lg-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				<a href="#" class="mr-15 link color-main">About</a>
-				<a href="#" class="mx-15 link color-main">Policy</a>
-				<a href="#" class="mx-15 link color-main">Terms</a>
+
 			</div>
 			<div class="mb-10 mb-lg-0 col-lg-auto order-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-				<a href="#" class="logo link color-main">Startup 3</a>
+				<a href="#" class="logo link color-main">Artivize</a>
 			</div>
 			<div class="col-lg-4 col-sm-6 text-sm-left text-lg-right order-2 order-lg-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				<a href="#" class="mr-15 link color-main">Contacts</a>
+
 				<a href="#" class="mx-15 link color-main"><i class="fab fa-twitter"></i></a>
 				<a href="#" class="mx-15 link color-main"><i class="fab fa-facebook-square"></i></a>
 				<a href="#" class="ml-15 link color-main"><i class="fab fa-google-plus-g"></i></a>
@@ -305,8 +291,7 @@
 		<div class="row justify-content-center">
 			<div class="mt-10 col-xl-4 col-lg-5 col-md-6 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 				<div class="color-heading text-adaptive">
-					Be sure to take a look at our <a href="#" class="link color-heading">Terms of Use</a> <br />
-					and <a href="#" class="link color-heading">Privacy Policy</a>
+				Big thanks to bootstrap for the use of their open source library, check them out <a href="https://getbootstrap.com/docs/5.1/getting-started/download/" class="link color-heading"><h5>Here</h5></a>
 				</div>
 			</div>
 		</div>
