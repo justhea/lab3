@@ -42,22 +42,3 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			</head> 
 	<body>
-
-<!-- Navigation 1 -->
-
-<nav class="navigation_1 bg-light pt-30 pb-30 text-center">
-	<div class="container px-xl-0">
-		<div class="row justify-content-center align-items-center f-16">
-			<div class="mb-20 mb-lg-0 col-lg-3 text-lg-left" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				<a href="#" class="logo link color-main">Artivize</a>
-			</div>
-			<div class="col-lg-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-
-			</div>
-			<div class="mt-20 mt-lg-0 col-lg-3 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-				<a href="#" class="mr-20 link color-main">Works</a>
-				<a href="#" class="btn sm action-2 f-16">Submit</a>
-			</div>
-		</div>
-	</div>
-</nav>

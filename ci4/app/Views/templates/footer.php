@@ -9,9 +9,36 @@
 <!-- AOS 2.3.1 jQuery plugin JS (Animations) -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+
+
+
 <script src="js/jquery.maskedinput.min.js"></script>
 <!-- Startup 3 JS (Custom js for all blocks) -->
 <script src="js/script.js"></script>
+<script type="text/javascript">
+		// Define an array of quotes
+		var quotes = [
+			"Art is not what you see, but what you make others see.",
+			"The aim of art is to represent not the outward appearance of things, but their inward significance.",
+			"Art is the lie that enables us to realize the truth.",
+			"Art should comfort the disturbed and disturb the comfortable.",
+			"Creativity takes courage."
+		];
 
+		// Function to display a random quote
+		function displayQuote() {
+			var index = Math.floor(Math.random() * quotes.length);
+			var quoteElement = document.getElementById("quote");
+			quoteElement.innerHTML = quotes[index];
+		}
+
+		// Call displayQuote function initially
+		displayQuote();
+
+		// Call displayQuote function in a given interval
+		setInterval(function() {
+			displayQuote();
+		}, 2000); // Change the interval time (in milliseconds) as per your requirement
+	</script>
 </body>
 </html>
