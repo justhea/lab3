@@ -117,12 +117,18 @@ With the blessing of the website creator Carl, we are welcoming everyone to shar
 
 <!-- Main Content -->
 		<div class="row">
-			<div class="col-md-4 col-sm-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-					<img srcset="i/showcase_2_img_1@2x.jpg 2x" src="i/showcase_2_img_1.jpg" class="radius10 img-fluid" alt="" />
-					<div class="mt-20 mb-15 f-22 title">Funny Dog</div>
-					<div class="color-heading f-14 semibold text-uppercase sp-20">Real</div>
-				</a>
-			</div>
+
+			<?php foreach ($news as $new): ?>
+
+				<div class="col-md-4 col-sm-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+						<img srcset="i/<?= $new['image'] ?>" src="i/<?= $new['image'] ?>" class="radius10 img-fluid" alt="" />
+						<div class="mt-20 mb-15 f-22 title"><?= $new['title'] ?></div>
+						<div class="color-heading f-14 semibold text-uppercase sp-20"><?= $new['name'] ?></div>
+					</a>
+				</div>
+
+			<?php endforeach ?>
+
 		</div>
 	</div>
 </section>
