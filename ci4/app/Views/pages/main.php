@@ -256,7 +256,7 @@ With the blessing of the website creator Carl, we are welcoming everyone to shar
 	</div>
 				</div>
 				<div class="mt-20 d-flex align-items-center author_info">
-					<img srcset="i/me.jpg 2x" src="i/mejpg" class="w-60 h-60 radius_full" alt="" />
+					<img srcset="i/me.jpg" src="i/mejpg" class="w-60 h-60 radius_full" alt="" />
 					<div class="ml-15 color-heading f-14 semibold text-uppercase sp-20">Justin</div>
 				</div>
 			</div>
