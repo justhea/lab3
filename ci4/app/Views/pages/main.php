@@ -14,7 +14,7 @@
 			</div>
 			<div class="mt-20 mt-lg-0 col-lg-3 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
 				<a href="#main" class="mr-20 link color-main">Works</a>
-				<a href="#" class="btn sm action-2 f-16">Submit</a>
+				<a href="form" class="btn sm action-2 f-16">Submit</a>
 			</div>
 		</div>
 	</div>
