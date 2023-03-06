@@ -24,7 +24,6 @@ class Form extends BaseController
 
         $title = $request->getPost('title');
         $name = $request->getPost('name');
-
         $img = $this->request->getFile('news_image');
         dd($img);
 
@@ -35,7 +34,5 @@ class Form extends BaseController
             'name' => $name,
             'uploaded_fileinfo' => $img->getClientName()
         ];
-
-        dd($response);
     }
 }
