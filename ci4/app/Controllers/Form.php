@@ -9,22 +9,26 @@ use App\Models\News as News;
 
 class Form extends BaseController
 {
-    public function index($page = 'form')
+    public function index()
     {
+        helper(['form', 'url']);
+
         return view('templates/header', [
-                'title' => ucfirst($page)
+                'title' => ucfirst("Upload")
             ])
-            . view('pages/' . $page)
+            . view('pages/form')
             . view('templates/footer');
     }
 
     public function add()
     {
-        $request = service('request');
+        helper(['form', 'url']);
 
+        $request = service('request');
         $title = $request->getPost('title');
         $name = $request->getPost('name');
-        $img = $this->request->getFile('news_image');
+        $img = $this->request->getPost('image');
+        
         dd($img);
 
         $img->move(ROOTPATH . 'public/i/');
@@ -34,5 +38,7 @@ class Form extends BaseController
             'name' => $name,
             'uploaded_fileinfo' => $img->getClientName()
         ];
+
+        return json_encode($response, true);
     }
 }

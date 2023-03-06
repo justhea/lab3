@@ -11,8 +11,8 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
-$routes->setDefaultMethod('index');
+$routes->setDefaultController('Pages');
+$routes->setDefaultMethod('view');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
@@ -32,12 +32,13 @@ $routes->set404Override();
 use App\Controllers\News;
 use App\Controllers\Pages;
 use App\Controllers\Form;
-$routes->get('/', 'Home::index');
-$routes->match(['get', 'post'], 'create', [News::class, 'create']);
-$routes->get('news/(:segment)', [News::class, 'view']);
-$routes->get('news', [News::class, 'index']);
-$routes->get('pages', [Pages::class, 'index']);
-$routes->get('(:segment)', [Pages::class, 'view']);
+$routes->get('/', [Pages::class, 'view'], ['as' => 'pages.view']);
+// $routes->match(['get', 'post'], 'create', [News::class, 'create']);
+// $routes->get('news/(:segment)', [News::class, 'view']);
+// $routes->get('news', [News::class, 'index']);
+// $routes->get('pages', [Pages::class, 'index']);
+// $routes->get('(:segment)', [Pages::class, 'view']);
+$routes->get('form', [Form::class, 'index'], ['as' => 'form.index']);
 $routes->post('form-add', [Form::class, 'add'], ['as' => 'form.add']);
 
 /*
