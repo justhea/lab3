@@ -26,7 +26,6 @@ class Form extends BaseController
         $name = $request->getPost('name');
 
         $img = $this->request->getFile('news_image');
-
         dd($img);
 
         $img->move(ROOTPATH . 'public/i/');

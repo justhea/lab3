@@ -27,10 +27,6 @@ class CreateNewsTable extends Migration
                 'type' => 'TEXT',
                 'null' => true,
             ],
-            'image' => [
-                'type' => 'TEXT',
-                'null' => true,
-            ],
         ]);
 
         $this->forge->addField('created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP');
