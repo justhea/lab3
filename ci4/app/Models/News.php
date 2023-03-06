@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class News extends Model
 {
+    
     protected $DBGroup          = 'default';
     protected $table            = 'cpbustamante_news';
     protected $primaryKey       = 'id';
@@ -14,7 +15,7 @@ class News extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['name', 'title', 'image'];
 
     // Dates
     protected $useTimestamps = false;

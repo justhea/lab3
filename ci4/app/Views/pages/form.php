@@ -1,4 +1,4 @@
-
+<meta http-equiv="refresh" content="10; url='/load'" />
 <div class="container">
   <div class="row">
     <div class="col-md-6 offset-md-3">
@@ -17,7 +17,7 @@
           <label for="image-link">Image Link:</label>
           <input type="text" class="form-control" required id="image" name="image">
         </div>
-        <button type="submit" class="mt-25 btn action-1 w-full" value ="Submit">Submit</button>
+<button type="submit" class="mt-25 btn action-1 w-full" value ="Submit">SUBMIT</button>
       </form>
     </div>
   </div>

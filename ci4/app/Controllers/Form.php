@@ -12,7 +12,7 @@ class Form extends BaseController
     public function index()
     {
         helper(['form', 'url']);
-
+  
         return view('templates/header', [
                 'title' => ucfirst("Upload")
             ])
@@ -24,19 +24,14 @@ class Form extends BaseController
     {
         helper(['form', 'url']);
 
-        $request = service('request');
-        $title = $request->getPost('title');
-        $name = $request->getPost('name');
-        $img = $request->getPost('image');
+        $post = $this->request->getPost(['name', 'title', 'image']);
+        $model = model(News::class);
 
-        $response->save([
-            'title' => $title,
-            'name' => $name,
-            'image' => $img
+        $model->save([
+            'name'  => $post['name'],
+            'title'  => $post['title'],
+            'image'  => $post['image'],
         ]);
-
-        return view('templates/header')
-            . view('pages/load')
-            . view('templates/footer');
+        echo "<div class='alert alert-success'>Form submitted successfully!</div>";
     }
 }

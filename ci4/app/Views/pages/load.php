@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Redirecting</title>
-  <meta http-equiv="refresh" content="6; url='main'" />
+  <meta http-equiv="refresh" content="6; url='/'" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   
