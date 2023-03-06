@@ -121,7 +121,7 @@ With the blessing of the website creator Carl, we are welcoming everyone to shar
 			<?php foreach ($news as $new): ?>
 
 				<div class="col-md-4 col-sm-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-						<img srcset="i/<?= $new['image'] ?>" src="i/<?= $new['image'] ?>" class="radius10 img-fluid" alt="" />
+						<img srcset="<?= $new['image'] ?>" src="<?= $new['image'] ?>" class="radius10 img-fluid" alt="" />
 						<div class="mt-20 mb-15 f-22 title"><?= $new['title'] ?></div>
 						<div class="color-heading f-14 semibold text-uppercase sp-20"><?= $new['name'] ?></div>
 					</a>
