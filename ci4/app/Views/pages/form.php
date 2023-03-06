@@ -1,4 +1,4 @@
-<meta http-equiv="refresh" content="10; url='/load'" />
+<meta http-equiv="refresh" content="10; url='http://apcwebprog.csf.ph/~cpbustamante/lab3/ci4/public/load'" />
 <div class="container">
   <div class="row">
     <div class="col-md-6 offset-md-3">
