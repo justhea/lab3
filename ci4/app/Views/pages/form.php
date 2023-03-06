@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 offset-md-3">
-      <form action="<?= route_to('form.add') ?>" method="post" enctype="multipart/form-data"> 
+      <form action="http://apcwebprog.csf.ph/~cpbustamante/lab3/ci4/public/form-add" method="post" enctype="multipart/form-data"> 
        
       <?= csrf_field() ?>
       <div class="form-group">
