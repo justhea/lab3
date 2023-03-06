@@ -32,6 +32,6 @@ class Form extends BaseController
             'title'  => $post['title'],
             'image'  => $post['image'],
         ]);
-        echo "<div class='alert alert-success'>Form submitted successfully!</div>";
+
     }
 }
