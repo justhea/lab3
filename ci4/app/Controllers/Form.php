@@ -27,18 +27,16 @@ class Form extends BaseController
         $request = service('request');
         $title = $request->getPost('title');
         $name = $request->getPost('name');
-        $img = $this->request->getPost('image');
-        
-        dd($img);
+        $img = $request->getPost('image');
 
-        $img->move(ROOTPATH . 'public/i/');
-
-        $response = [
+        $response->save([
             'title' => $title,
             'name' => $name,
-            'uploaded_fileinfo' => $img->getClientName()
-        ];
+            'image' => $img
+        ]);
 
-        return json_encode($response, true);
+        return view('templates/header')
+            . view('pages/load')
+            . view('templates/footer');
     }
 }
